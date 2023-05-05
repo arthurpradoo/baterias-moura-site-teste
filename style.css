@@ -1,0 +1,100 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do header */
+header {
+  background-color: #243853;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do banner
+#banner {
+  background-color: #80a5c2;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Estilos da seção de produtos */
+#produtos {
+  padding: 50px;
+}
+
+#produtos ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#produtos li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+#produtos h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#produtos p {
+  margin-top: 10px;
+}
+
+/* Estilos da seção de contato */
+#contato {
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contato label {
+  font-weight: bold;
+}
+
+#contato input, #contato textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#contato button {
+  background-color: #243853;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#contato button:hover {
+  background-color: #1a293b;
+}
